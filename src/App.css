@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 0.3s;
 }
 
 main {
@@ -51,6 +50,7 @@ main {
 
         input,
         textarea {
+          transition: 0.3s;
           width: 100%;
           padding: 12px 24px;
           border-radius: 8px;
@@ -83,6 +83,7 @@ main {
     }
 
     .radio-input-div {
+      transition: 0.3s;
       width: 100%;
       display: flex;
       padding: 12px 24px;
@@ -155,6 +156,7 @@ main {
     }
 
     .submit-button {
+      transition: 0.3s;
       display: flex;
       padding: 16px 40px;
       justify-content: center;
